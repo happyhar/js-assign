@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+</head>
+<body>
+<script src="intro.js"></script>
+<h2>Q(1)   THE VARIOUS METHODS IN CONSOLE FUNCTION</h2>
+<h3>1  -  console.error()</h3>
+<p>Used to log error message to the console. Useful in testing of code. By default the error message will be highlighted with red color.</p>
+<h3>2  -  console.warn()</h3>
+<p>Used to log warning message to the console. By default the warning message will be highlighted with yellow color.</p>
+<h3>3  -  console.clear()</h3>
+<p>Used to clear the console. The console will be cleared, in case of Chrome a simple overlayed text will be printed like : ‘Console was cleared’ while in firefox no message is returned.</p>
+<h3>4  -  console.time() and console.timeEnd()</h3>
+<p>Whenever we want to know the amount of time spend by a block or a function, we can make use of the time() and timeEnd() methods provided by the javascript console object. They take a label which must be same, and the code inside can be anything( function, object, simple console).</p>
+<h3>5  -  console.table()</h3>
+<p>This method allows us to generate a table inside a console. The input must be an array or an object which will be shown as a table..</p>
+
+<h2>Q(2)  THE DIFFERENT DATATYPES IN JS</h2>
+<P>JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript</p>
+  <h3>1-JavaScript primitive data types</h3>
+  <table style="width:100%">
+    <tr>
+      <th>Data Type	</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>   String</td>
+      <td>represents sequence of characters e.g. "hello"
+    </td>
+      
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>represents numeric values e.g. 100
+    </td>
+    
+    </tr>
+    <tr>
+        <td>Boolean</td>
+        <td>represents boolean value either false or true
+        </td>
+      
+      </tr>
+      <tr>
+        <td>Undefined</td>
+        <td>represents undefined value
+        </td>
+      
+      </tr>
+      <tr>
+        <td>Null</td>
+        <td>represents null i.e. no value at all
+        </td>
+      
+      </tr>
+  </table>
+    <h3>2-JavaScript non-primitive data types
+    </h3>
+    <table style="width:100%">
+        <tr>
+          <th>Data Type	</th>
+          <th>Description</th>
+        
+        </tr>
+        <tr>
+          <td>Object</td>
+          <td>represents instance through which we can access members
+        </td>
+         
+        </tr>
+        <tr>
+          <td>Array</td>
+          <td>represents group of similar values
+        </td>
+          
+        </tr>
+        <tr>
+            <td>RegExp</td>
+            <td>represents regular expression
+            </td>
+            
+          </tr>
+      </table>
+
+<h2>Q(3)  DIFFERENCE OF VAR, LET AND CONST</h2>
+
+<p>var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. They are all hoisted to the top of their scope.</p>
+</body>
+</html>
