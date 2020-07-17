@@ -11,7 +11,7 @@ else{
 
 // Q2
 let input = prompt("Enter OS with its version");
-a = input.split({ })
+a = input.split(" ")
 console.log(`The OS name is ${a[0]} and version is ${a[1]}`);
 
 // Q3
@@ -26,5 +26,5 @@ else{
 }
 
 
-console.log(marks>=7=?`Marks are ${marks} and grade is A`:`Marks are ${marks} and grade is B`);
+console.log(marks>=70?`Marks are ${marks} and grade is A`:`Marks are ${marks} and grade is B`);
 
