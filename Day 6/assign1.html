@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        var c = ["blue", "orange", "yellow", "red","grey","green"];
+      
+        function changeColor() {
+          setTimeout(function loop() {
+            document.bgColor = c.shift();
+            if (c.length) {
+              setTimeout(loop, 5000);
+            }
+          }, 5000);
+        }
+      
+        function start() {
+          setInterval(changeColor(), 20000);
+        }
+      </script>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus officiis reiciendis! Iusto placeat quia a. Iusto laboriosam, dolorum neque aut ad molestiae. Ipsum facere distinctio accusamus quidem repellat nesciunt ipsam, cum consequatur voluptates veniam excepturi nisi, voluptatem aspernatur laboriosam alias sed quasi dolore ratione consequuntur? Qui fugit tempore dolore iusto? Natus assumenda consectetur doloribus delectus doloremque esse fuga officiis perspiciatis in iure veritatis, exercitationem vitae, quibusdam optio ad eius deleniti, aperiam magni reprehenderit itaque facere neque modi nesciunt consequuntur! Molestiae eum debitis vero eligendi. Perferendis rem recusandae laborum repellat fugit similique sequi, praesentium eaque aliquam voluptas quod id minus tempora sint sit magnam velit iusto fuga possimus totam at. Reiciendis autem est perspiciatis voluptatem suscipit delectus quidem odit minus, neque rem voluptatum a, maxime culpa? Nemo itaque doloremque ad quia deserunt esse. Vero quas tenetur neque commodi quisquam error ipsam corporis asperiores, maiores voluptates fugit fuga! Ut debitis non, vero, accusamus tempora sed dolore veniam et vel minus cupiditate possimus odio! Officia voluptas harum nobis provident, inventore odit eveniet expedita totam? Facere nisi voluptate doloribus a modi nobis, aspernatur asperiores amet voluptatem voluptatum eius officia consequatur velit qui fuga quo dolorem temporibus expedita laborum obcaecati ea. Magnam odit quisquam repudiandae? Eius culpa a, recusandae repellendus provident modi ea earum voluptatum eos beatae dolor voluptatibus, quo iusto. Eos, odit ab odio enim amet et tempora corrupti minima fugiat. Ullam nobis dolorum, explicabo distinctio officia a! Cumque alias reprehenderit consequatur. Vel, culpa molestiae. Beatae pariatur aperiam vitae, quas delectus fuga eaque veniam labore, distinctio culpa impedit laboriosam nostrum, facilis ipsum doloremque sequi commodi voluptatum laudantium facere illo deserunt! Fugit doloremque vitae officiis eius distinctio libero soluta. Quo fuga inventore quidem aspernatur esse voluptatem minima, corporis ad, perspiciatis eaque ipsum optio magnam facere deserunt. Soluta nesciunt expedita aspernatur fugiat ratione, sed doloremque.</p>
+      <body onload="start()">
+    
+</body>
+</html>
